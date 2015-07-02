@@ -3,11 +3,23 @@ Better JavaScript language definition for TextMate and SublimeText. This builds 
 
 ## Installation and Use
 
+### Sublime
+
 If you haven't already, [install Package Control](https://sublime.wbond.net/installation), then select `JavaScript Next` from the `Package Control: Install Package` dropdown list in the Command Palette.
 
 To set this as your default JavaScript syntax, open a javascript file, then select `View -> Syntax -> Open all with current extension as... -> JavascriptNext`.
 
 You may also need to change the ColorScheme. Pick one from `Preferences -> Color Scheme -> JavaScriptNext`.
+
+### TextMate 2
+
+```
+git clone git@github.com:dhensche/JavaScriptNext.tmLanguage.git
+cd JavaScriptNext.tmLanguage
+./create-bundle.sh
+mkdir -p ~/Library/Application\ Support/Avian/Bundles/
+mv JavaScriptNext.tmbundle ~/Library/Application\ Support/Avian/Bundles/
+```
 
 ## Screenshots
 
